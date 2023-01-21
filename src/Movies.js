@@ -12,6 +12,12 @@ const Movies = () => {
     const radios=[16,18,35,80,9648,10751,10759,10763,10765,10766,10768];
 
     useEffect(()=>{
+        
+                              /*   API REST 
+                                    ||
+                                     V
+
+                               */
         axios.get("https://api.themoviedb.org/3/tv/popular?api_key=ef7eb37291131cc6d9bdef8fc7fc9a98&language=en-US&page=1")
         .then((res) =>setData(res.data.results));
     },[])
