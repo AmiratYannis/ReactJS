@@ -7,7 +7,6 @@ import Movies from './Movies';
 const Home = () => {
     return (
         <div>
-            <Logo/>
             <Navigation/>
             
             <h1>Présentation</h1>

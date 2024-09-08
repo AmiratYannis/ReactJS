@@ -1,20 +1,26 @@
 import React from "react";
-import {NavLink} from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import "./navigation.css";
+import Logo from "./Logo";
 
 const Navigation = () => {
     return (
-        <div className="navigation">
-            <ul>
-                <NavLink to="/" className={(nav)=>(nav.isActive ? "nav-active":"")}>
-                    <li>Accueil</li>
+        <nav className="navigation">
+            <NavLink to="/" className={(nav) => (nav.isActive ? "nav-active" : "")}>
+                <Logo />
+            </NavLink>
+            <ul class="nav-links">
+                <NavLink to="/" className={(nav) => (nav.isActive ? "nav-active" : "")}>
+                    <li>ACCUEIL</li>
                 </NavLink>
-                <NavLink to="/about" className={(nav)=>(nav.isActive ? "nav-active":"")}>
-                    <li>A propos</li>
+                <NavLink to="/about" className={(nav) => (nav.isActive ? "nav-active" : "")}>
+                    <li>A PROPOS</li>
                 </NavLink>
             </ul>
 
-        </div>
+
+
+        </nav >
     );
 };
 

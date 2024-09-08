@@ -1,13 +1,11 @@
 .logo {
     vertical-align: middle;
     text-align: center;
-    margin: 5px auto;
     width: 350px;
     height: 45px;
     border-radius: 20px;
-    padding: 5px 0;
-    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.307);
-    background-color: black;
+    
+
 }
 
 .logo img {
