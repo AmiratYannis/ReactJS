@@ -1,5 +1,4 @@
 import React from 'react';
-import { BrowserRouter, Route } from 'react-router-dom';
 import Navigation from './Navigation';
 import Logo from './Logo';
 import Movies from './Movies';

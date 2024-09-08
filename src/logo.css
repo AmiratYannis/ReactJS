@@ -1,8 +1,8 @@
-.logo{
+.logo {
     vertical-align: middle;
     text-align: center;
-    margin:5px auto;
-    width: 200px;
+    margin: 5px auto;
+    width: 350px;
     height: 45px;
     border-radius: 20px;
     padding: 5px 0;
@@ -10,12 +10,12 @@
     background-color: black;
 }
 
-.logo img{
+.logo img {
     height: 40px;
     float: left;
     margin-left: 20px;
 }
 
-.logo h3{
-    color:aqua;
+.logo h3 {
+    color: aqua;
 }
