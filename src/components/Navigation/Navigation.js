@@ -1,7 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import "./navigation.css";
-import Logo from "./Logo";
+import Logo from "./Logo/Logo";
 
 const Navigation = () => {
     return (
@@ -9,7 +9,7 @@ const Navigation = () => {
             <NavLink to="/" className={(nav) => (nav.isActive ? "nav-active" : "")}>
                 <Logo />
             </NavLink>
-            <ul class="nav-links">
+            <ul className="nav-links">
                 <NavLink to="/" className={(nav) => (nav.isActive ? "nav-active" : "")}>
                     <li>ACCUEIL</li>
                 </NavLink>

@@ -5,7 +5,7 @@ const Card = ({movie}) =>{
 
     return (
         <li className="card">
-            <img src={"https://www.themoviedb.org/t/p/original/"+movie.poster_path} alt={movie.name}/>  
+            <img src={"https://www.themoviedb.org/t/p/original/"+movie.poster_path} alt={movie.name} width="400" height="550"/>  
             <div className="infos">
                 <h2>{movie.name}</h2>
                 <h3>{movie.overview}</h3>
